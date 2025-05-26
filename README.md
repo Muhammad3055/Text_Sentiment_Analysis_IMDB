@@ -24,10 +24,36 @@ Data cleaning and preprocessing (NLTK)
 
 ---
 
-## ⚙️ Libraries Used
+ Libraries Used
 
 ```bash
 pandas
 numpy
 nltk
 scikit-learn
+How to Run
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/imdb-sentiment-analysis.git
+cd imdb-sentiment-analysis
+Place the IMDB Dataset.csv file in the project directory.
+
+Run the script:
+
+bash
+Copy
+Edit
+python sentiment_analysis.py
+Enter a custom movie review when prompted to get the predicted sentiment.
+
+Sample Output
+plaintext
+Copy
+Edit
+Enter a movie review to analyze sentiment: This movie was absolutely fantastic with brilliant acting!
+
+Sentiment: Positive 
+
